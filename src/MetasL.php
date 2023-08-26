@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Espiritual</title>
+    <title>Laboral</title>
     <link href="../dist/output.css" rel="stylesheet">
     <!-- CSS nesesario para que los input type radio funcionen -->
     <link href="../dist/radio.css" rel="stylesheet">
@@ -17,9 +17,9 @@
 
 <body>
     <form method="post" style="font-family: 'Inter', sans-serif;" class=" bg-gradient-to-b from-[#3068D8] to-[#000714] w-screen h-[180vh] ">
-        <div class=" bg-gradient-to-b from-[#7030a0] via-[#7030a0] to-transparent flex flex-col justify-center items-center text-white h-[12%] w-full pb-8">
+        <div class=" bg-gradient-to-b from-[#00b0f0] via-[#00b0f0] to-transparent flex flex-col justify-center items-center text-white h-[12%] w-full pb-8">
             <p class=" text-lg font-semibold">METAS</p>
-            <p class=" text-lg font-semibold">ESPIRITUALES</p>
+            <p class=" text-lg font-semibold">LABORALES</p>
         </div>
         <div class="  flex flex-col text-white justify-start items-center h-[80%] w-full">
             <div class=" border rounded-full flex justify-between w-[80%]">
@@ -39,62 +39,61 @@
                 </button>
             </div>
             <div class="mt-3 border rounded-2xl flex justify-around items-center w-[80%] h-16">
-                <!-- input radio 01 'Conversion' -->
-                <input type="radio" id="conversion" name="metasE" value="conversion" checked />
+                <!-- input radio 01 'empleado' -->
+                <input type="radio" id="empleado" name="metasL" value="empleado" checked />
                 <!-- Tamaño del weight es 50% ya que son 2 botones -->
-                <label class="flex flex-col rounded-l-2xl justify-center items-center w-[50%] " for="conversion">
-                    CONVERSIÓN</label>
-                <!-- input radio 02 'Dicipulo' -->
-                <input type="radio" id="dicipulo" name="metasE" value="dicipulo" />
+                <label class="flex flex-col rounded-l-2xl justify-center items-center w-[50%] " for="empleado">
+                    EMPLEADO</label>
+                <!-- input radio 02 'emprendedor' -->
+                <input type="radio" id="emprendedor" name="metasL" value="emprendedor" />
                 <!-- Tamaño del weight es 50% ya que son 2 botones -->
-                <label class="flex flex-col rounded-r-2xl justify-center items-center w-[50%]" for="dicipulo">
-                    <p>SER</p>
-                    <p>DICIPULO</p>
+                <label class="flex flex-col rounded-r-2xl justify-center items-center w-[50%]" for="emprendedor">
+                    <p>EMPRENDEDOR</p>
                 </label>
             </div>
-            <!-- Los id y los name llevan el nombre de MEQ1 = (Metas Espirituales Question 1)
+            <!-- Los id y los name llevan el nombre de MLQ1 = (Metas Laborales Question 1)
              intenta seguir ese mismo patron para las vistas por favor :3 -->
             <div class=" flex flex-col w-[80%]">
                 <li class="mt-3 px-3 text-xl">
                     ¿Qué haré?
                 </li>
-                <input class="mt-3 rounded-full py-4 px-6 text-black" id="MEQ1" name="MEQ1" type="text" placeholder="Ingrese aquí">
+                <input class="mt-3 rounded-full py-4 px-6 text-black" id="MLQ1" name="MLQ1" type="text" placeholder="Ingrese aquí">
             </div>
             <div class=" flex flex-col w-[80%]">
                 <li class="mt-3 px-3 text-xl">
                     ¿Por qué lo hago?
                 </li>
-                <input class="mt-3 rounded-full py-4 px-6 text-black" id="MEQ2" name="MEQ2" type="text" placeholder="Ingrese aquí">
+                <input class="mt-3 rounded-full py-4 px-6 text-black" id="MLQ2" name="MLQ2" type="text" placeholder="Ingrese aquí">
             </div>
             <div class=" flex flex-col w-[80%]">
                 <li class="mt-3 px-3 text-xl">
                     ¿Cómo lo haré?
                 </li>
-                <input class="mt-3 rounded-full py-4 px-6 text-black" id="MEQ3" name="MEQ3" type="text" placeholder="Ingrese aquí">
+                <input class="mt-3 rounded-full py-4 px-6 text-black" id="MLQ3" name="MLQ3" type="text" placeholder="Ingrese aquí">
             </div>
             <div class=" flex flex-col w-[80%]">
                 <li class="mt-3 px-3 text-xl">
                     ¿Cuándo lo haré?
                 </li>
-                <input class="mt-3 rounded-full py-4 px-6 text-black" id="MEQ4" name="MEQ4" type="text" placeholder="Ingrese aquí">
+                <input class="mt-3 rounded-full py-4 px-6 text-black" id="MLQ4" name="MLQ4" type="text" placeholder="Ingrese aquí">
             </div>
             <div class=" flex flex-col w-[80%]">
                 <li class="mt-3 px-3 text-xl">
                     ¿Dónde lo haré?
                 </li>
-                <input class="mt-3 rounded-full py-4 px-6 text-black" id="MEQ5" name="MEQ5" type="text" placeholder="Ingrese aquí">
+                <input class="mt-3 rounded-full py-4 px-6 text-black" id="MLQ5" name="MLQ5" type="text" placeholder="Ingrese aquí">
             </div>
             <div class=" flex flex-col w-[80%]">
                 <li class="mt-3 px-3 text-xl">
                     ¿Con quien lo haré?
                 </li>
-                <input class="mt-3 rounded-full py-4 px-6 text-black" id="MEQ6" name="MEQ6" type="text" placeholder="Ingrese aquí">
+                <input class="mt-3 rounded-full py-4 px-6 text-black" id="MLQ6" name="MLQ6" type="text" placeholder="Ingrese aquí">
             </div>
             <div class=" flex flex-col w-[80%]">
                 <li class="mt-3 px-3 text-xl">
                     ¿Cuánto me costará?
                 </li>
-                <input class="mt-3 rounded-full py-4 px-6 text-black" id="MEQ7" name="MEQ7" type="text" placeholder="Ingrese aquí">
+                <input class="mt-3 rounded-full py-4 px-6 text-black" id="MLQ7" name="MLQ7" type="text" placeholder="Ingrese aquí">
             </div>
         </div>
         <div class=" rounded-t-3xl px-8 flex bg-[#1f4590] text-white gap-10 justify-around items-center h-[8%] w-full">

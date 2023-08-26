@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Familiares</title>
+    <title>Familiar</title>
     <link href="../dist/output.css" rel="stylesheet">
     <!-- CSS nesesario para que los input type radio funcionen -->
     <link href="../dist/radio.css" rel="stylesheet">
@@ -45,14 +45,14 @@
             </div>
             <div class="mt-3 border rounded-2xl flex justify-around items-center w-[80%] h-16">
                 <!-- input radio 01 'Esposo/novio' -->
-                <input type="radio" id="esposo" name="metasF" value="esposo" checked />
+                <input type="radio" id="esposo" name="metasFa" value="esposo" checked />
                 <!-- Tamaño del weight es 33.33% ya que son 3 botones -->
                 <label class="flex flex-col rounded-l-2xl justify-center items-center w-[33.33%] " for="esposo">
                     <p>ESPOSO/</p>
                     <p>NOVIO</p>
                 </label>
                 <!-- input radio 02 'Padre' -->
-                <input type="radio" id="padre" name="metasF" value="padre" />
+                <input type="radio" id="padre" name="metasFa" value="padre" />
                 <!-- Tamaño del weight es 33.33% ya que son 3 botones -->
                 <label class="flex flex-col justify-center items-center w-[33.33%]" for="padre">
                     <p>PADRE</p>
@@ -64,56 +64,56 @@
                     <p>HIJO</p>
                 </label>
             </div>
-            <!-- Los id y los name llevan el nombre de MFQ1 = (Metas Familiares Question 1)
+            <!-- Los id y los name llevan el nombre de MFaQ1 = (Metas Familiares Question 1)
              intenta seguir ese mismo patron para las vistas por favor :3 -->
             <div class=" flex flex-col w-[80%]">
                 <li class="mt-3 px-3 text-xl">
                     ¿Qué haré?
                 </li>
-                <input class="mt-3 rounded-full py-4 px-6 text-black" id="MFQ1" name="MFQ1" type="text"
-                    placeholder="Ingrese aqui">
+                <input class="mt-3 rounded-full py-4 px-6 text-black" id="MFaQ1" name="MFaQ1" type="text"
+                    placeholder="Ingrese aquí">
             </div>
             <div class=" flex flex-col w-[80%]">
                 <li class="mt-3 px-3 text-xl">
                     ¿Por qué lo hago?
                 </li>
-                <input class="mt-3 rounded-full py-4 px-6 text-black" id="MFQ2" name="MFQ2" type="text"
-                    placeholder="Ingrese aqui">
+                <input class="mt-3 rounded-full py-4 px-6 text-black" id="MFaQ2" name="MFaQ2" type="text"
+                    placeholder="Ingrese aquí">
             </div>
             <div class=" flex flex-col w-[80%]">
                 <li class="mt-3 px-3 text-xl">
                     ¿Cómo lo haré?
                 </li>
-                <input class="mt-3 rounded-full py-4 px-6 text-black" id="MFQ3" name="MFQ3" type="text"
-                    placeholder="Ingrese aqui">
+                <input class="mt-3 rounded-full py-4 px-6 text-black" id="MFaQ3" name="MFaQ3" type="text"
+                    placeholder="Ingrese aquí">
             </div>
             <div class=" flex flex-col w-[80%]">
                 <li class="mt-3 px-3 text-xl">
                     ¿Cuándo lo haré?
                 </li>
-                <input class="mt-3 rounded-full py-4 px-6 text-black" id="MFQ4" name="MFQ4" type="text"
-                    placeholder="Ingrese aqui">
+                <input class="mt-3 rounded-full py-4 px-6 text-black" id="MFaQ4" name="MFaQ4" type="text"
+                    placeholder="Ingrese aquí">
             </div>
             <div class=" flex flex-col w-[80%]">
                 <li class="mt-3 px-3 text-xl">
                     ¿Dónde lo haré?
                 </li>
-                <input class="mt-3 rounded-full py-4 px-6 text-black" id="MFQ5" name="MFQ5" type="text"
-                    placeholder="Ingrese aqui">
+                <input class="mt-3 rounded-full py-4 px-6 text-black" id="MFaQ5" name="MFaQ5" type="text"
+                    placeholder="Ingrese aquí">
             </div>
             <div class=" flex flex-col w-[80%]">
                 <li class="mt-3 px-3 text-xl">
                     ¿Con quien lo haré?
                 </li>
-                <input class="mt-3 rounded-full py-4 px-6 text-black" id="MFQ6" name="MFQ6" type="text"
-                    placeholder="Ingrese aqui">
+                <input class="mt-3 rounded-full py-4 px-6 text-black" id="MFaQ6" name="MFaQ6" type="text"
+                    placeholder="Ingrese aquí">
             </div>
             <div class=" flex flex-col w-[80%]">
                 <li class="mt-3 px-3 text-xl">
                     ¿Cuánto me costará?
                 </li>
                 <input class="mt-3 rounded-full py-4 px-6 text-black" id="MFQ7" name="MFQ7" type="text"
-                    placeholder="Ingrese aqui">
+                    placeholder="Ingrese aquí">
             </div>
         </div>
         <div class=" rounded-t-3xl px-8 flex bg-[#1f4590] text-white gap-10 justify-around items-center h-[8%] w-full">
