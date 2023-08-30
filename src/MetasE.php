@@ -49,7 +49,7 @@
                 <!-- Tamaño del weight es 50% ya que son 2 botones -->
                 <label class="flex flex-col rounded-r-2xl justify-center items-center w-[50%]" for="dicipulo">
                     <p>SER</p>
-                    <p>DICIPULO</p>
+                    <p>DISCIPULO</p>
                 </label>
             </div>
             <!-- Los id y los name llevan el nombre de MEQ1 = (Metas Espirituales Question 1)
@@ -98,7 +98,7 @@
             </div>
         </div>
         <div class=" rounded-t-3xl px-8 flex bg-[#1f4590] text-white gap-10 justify-around items-center h-[8%] w-full">
-            <a id="cancelar" href="./index.php" class=" hover:bg-[#f96f6f51] hover:text-[#f96f6f] hover:border-2 hover:border-[#f96f6f] bg-[#f96f6f] h-[60%] w-32 rounded-2xl flex justify-center items-center font-semibold">Cancelar</a>
+            <a id="cancelar" href="./metas.php" class=" hover:bg-[#f96f6f51] hover:text-[#f96f6f] hover:border-2 hover:border-[#f96f6f] bg-[#f96f6f] h-[60%] w-32 rounded-2xl flex justify-center items-center font-semibold">Cancelar</a>
             <button id="guardar" type="submit" class="hover:bg-[#0c8de974] hover:text-[#66baff] hover:border-2 hover:border-[#0c8ce9] bg-[#0c8ce9] h-[60%] w-32 rounded-2xl font-semibold">
                 <p>Guardar</p>
                 <p>Cambios</p>
